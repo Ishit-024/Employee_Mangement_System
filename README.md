@@ -5,13 +5,13 @@ Effortlessly manage employee records with this feature-packed system built using
 ---
 
 ## 📋 Table of Contents
-- [🔍 Overview](#🔍-overview)
-- [🌟 Features](#🌟-features)
-- [🛠️ Functionalities](#🛠️-functionalities)
-- [🎮 Usage Instructions](#🎮-usage-instructions)
-- [💡 Getting Started](#💡-getting-started)
-- [📜 License](#📜-license)
-- [📧 Contact](#📧-contact)
+- [🔍 Overview](#overview)
+- [🌟 Features](#features)
+- [🛠️ Functionalities](#functionalities)
+- [🎮 Usage Instructions](#usage-instructions)
+- [💡 Getting Started](#getting-started)
+- [📜 License](#license)
+- [📧 Contact](#contact)
 
 ---
 
@@ -64,9 +64,4 @@ To interact with the Employee Management System, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ishit-024/Employee-Management-System.git
-
-📧 Contact
-If you have any questions or feedback, feel free to reach out:
-Email: ishitsetia@gmail.com
-
+   git clone https://github.com/username/Employee-Management-System.git
