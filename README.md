@@ -1,67 +1,63 @@
-# 🌟 Employee Management System
-
-Effortlessly manage employee records with this feature-packed system built using C++.
-
----
+# Employee Management System
 
 ## 📋 Table of Contents
-- [🔍 Overview](#overview)
-- [🌟 Features](#features)
-- [🛠️ Functionalities](#functionalities)
-- [🎮 Usage Instructions](#usage-instructions)
-- [💡 Getting Started](#getting-started)
-- [📜 License](#license)
-- [📧 Contact](#contact)
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Dataset Description](#dataset-description)
+- [Features](#features)
+  - [1. Employee Registration](#1-employee-registration)
+  - [2. Employee Login](#2-employee-login)
+  - [3. Attendance Management](#3-attendance-management)
+  - [4. Leave Management](#4-leave-management)
+  - [5. Salary Management](#5-salary-management)
+- [Usage Instructions](#usage-instructions)
+  - [1. Install Dependencies](#1-install-dependencies)
+  - [2. Run the Main Script](#2-run-the-main-script)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Model Results](#model-results)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
 
----
+## 📝 Overview
+This Employee Management System allows companies to manage their employees effectively by automating common HR processes such as employee registration, attendance, leave management, and salary calculation.
 
-## 🔍 Overview
+## 📁 Project Structure
+- **`src/`**: Contains all the Python scripts for the backend functionality of the system.
+- **`templates/`**: Contains HTML templates for the web interface.
+- **`data/`**: Contains CSV or database files for storing employee data.
 
-The **Employee Management System** is a secure, efficient, and user-friendly application for managing employee records.
+## 📊 Dataset Description
+The primary dataset `employee_data.csv` consists of the following columns:
 
-🚀 Whether you’re running a small business or a large enterprise, this system simplifies employee data handling.
+| **Column Name**   | **Description**                     |
+|-------------------|-------------------------------------|
+| employee_id       | Unique identifier for each employee |
+| name              | Full name of the employee           |
+| department        | Department where the employee works |
+| date_of_joining   | Date when the employee joined      |
+| salary            | Monthly salary of the employee      |
+| attendance        | Attendance record (present/absent) |
+| leave_days        | Number of leave days taken          |
 
-- 🛡️ **Secure Login**: Ensures data protection.
-- ⚙️ **Feature-Rich**: Comprehensive operations to manage employee details.
-- 🌟 **User-Friendly**: Intuitive interface with step-by-step instructions.
+## 🔄 Features
+### 1. Employee Registration
+This feature allows new employees to register in the system with basic details like name, department, and joining date.
 
----
+### 2. Employee Login
+Employees can log into the system using their credentials and view their personal information, attendance, and leave records.
 
-## 🌟 Features
-- 🔒 **Authentication**: Secure login for authorized users.
-- 🗂️ **Data Management**: Add, view, search, update, and delete employee records.
-- 🛠️ **Robust Functionality**: Handles invalid inputs and edge cases seamlessly.
+### 3. Attendance Management
+The system tracks employee attendance daily, allowing HR managers to update and monitor attendance records.
 
----
+### 4. Leave Management
+Employees can apply for leave, and HR managers can approve or reject leave requests. The leave history is also maintained.
 
-## 🛠️ Functionalities
+### 5. Salary Management
+The system calculates and tracks the monthly salary of each employee based on attendance and leave taken.
 
-| 🚀 **Action**        | 🔍 **Description**                              |
-|----------------------|-----------------------------------------------|
-| 🆕 Add Employee      | Add a new employee's details.                 |
-| 📋 View Employees    | Display all stored employee records.          |
-| 🔍 Search Employee   | Find a specific employee by ID or name.       |
-| ✏️ Update Information| Modify existing employee details.             |
-| ❌ Delete Employee   | Remove an employee record from the database.  |
-| 🔒 Logout            | Exit the system securely.                     |
+## 🛠️ Usage Instructions
 
----
-
-## 🎮 Usage Instructions
-
-To interact with the Employee Management System, follow these simple steps:
-
-1. **Enter 1** to add employee data.
-2. **Enter 2** to display all employee records.
-3. **Enter 3** to search for an employee.
-4. **Enter 4** to update employee details.
-5. **Enter 5** to delete employee records.
-6. **Enter 6** to logout securely.
-
----
-
-## 💡 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/Employee-Management-System.git
+### 1. Install Dependencies
+To get started, you need to install the required dependencies:
+```bash
+pip install -r requirements.txt
